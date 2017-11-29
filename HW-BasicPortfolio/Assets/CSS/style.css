@@ -1,0 +1,147 @@
+body
+	{
+		font-family: Georgia;
+		font-size: 18px;
+		color: #808080;
+		background-color: #E0E0E0;
+		margin: 0px;
+	}
+
+header
+	{
+			background-color: #ffffff;
+			border-bottom-style: inset;			
+			border-width: 2px;
+			border-bottom-color: #cccccc ;			
+	}
+		
+		.dispName
+		{
+			background-color: #4aaaa5;
+			color: white;
+			float: left;			
+			width: 30%;
+			margin:0px;
+			margin-left: 150px;
+			text-align: center;
+		}
+		.dispLinks
+		{
+			float: right;
+			width: 40%;
+			margin-top: 30px;
+            text-align: center;
+            color: #ebebeb;
+
+		}
+
+		header::after
+		{
+			clear: both;
+			content: "";
+			display: table;
+		}
+
+		#footer
+		{
+
+			background-color: pink;
+			margin-bottom: 0px;
+			margin-top: 800px;
+		}
+
+		footer
+		{
+			background-color: #606060;
+			text-align: center;
+			padding: 30px;
+			width: 95.3%;
+   			bottom:0;
+			font-size: 14px;
+			color: #cccccc;
+			border-top-style: inset;	
+			border-top-color: #33ffff;
+			border-top-width: 6px;
+		}
+		#body
+		{
+			width: 960px;
+			margin-left: 150px;
+			margin-right: 50px;
+			margin-top: 30px;
+			margin-bottom: 150px;
+		}
+
+		#LeftDiv
+		{
+			width: 650px;
+			float: left;
+			background-color: #ffffff;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #cccccc;
+		}
+
+		#RightDiv
+		{
+			width: 270px;
+			float: right;
+			background-color: #ffffff;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #cccccc;
+
+		}
+
+		aside
+		{
+			text-align: center;
+			color: #4aaaa5;
+			margin-bottom: 20px;
+
+		}
+
+		h2
+		{
+			color:#4aaaa5;
+			margin-left: 25px;	
+			margin-right: 25px;
+
+		}
+
+		hr
+		{
+			margin-left: 25px;
+			margin-right:25px; 
+			background-color:#cccccc; 
+			border: none; 
+		}
+
+		#contentChange
+		{
+			margin-left: 25px;
+			margin-right:25px; 
+			margin-top: 25px;
+		}
+
+		input,textarea
+		{
+			width: 98%;
+			margin-top: 5px;
+		}
+
+		textarea
+		{
+			height: 200px;
+		}
+
+		button
+		{
+			background-color: #4aaaa5;
+			color: #ffffff;
+			width: 100px;
+			height: 30px;
+			margin-bottom: 20px;
+			border: 0;			
+		}
+
